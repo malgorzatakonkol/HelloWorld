@@ -1,13 +1,185 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!-- Atrybut lang przypisany do tagu html -->
+<html lang="pl-PL" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>Hello world</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To jest strona startowa</title>
 </head>
 <body>
-    <h1>Hello World !</h1>
-    <h2>Hello World !!</h2>
-    <h3>Hello World !!!</h3>
-    <h4><b>Hello World !!!</b></h4>
+<!-- nagłówki -->
+<div class="topDiv">
+<h1>Hello World !</h1>
+<!-- paragraf Lorem Ipsum -->
+<p id="text">Maecenas vestibulum nunc quis varius suscipit. Pellentesque accumsan diam nec leo imperdiet pellentesque.
+    <br>
+    Fusce faucibus, dui a auctor semper, nibh dui condimentum sapien, ut imperdiet nisl lectus et est. Phasellus
+    faucibus diam et mauris tristique placerat. Cras luctus finibus blandit. <br>
+    Mauris imperdiet at leo sed euismod. Proin bibendum dui vel diam sollicitudin dignissim. Sed suscipit tortor odio,
+    tristique fermentum magna imperdiet semper. Morbi id ligula tellus. <br>
+    Fusce eget lacus vitae arcu hendrerit vehicula. Aliquam aliquet mi elit, sit amet varius urna bibendum sed.
+    Suspendisse vestibulum, magna et elementum commodo, lorem tortor maximus metus, at vulputate nisl arcu euismod
+    augue.<br>
+    Praesent sodales libero eget ipsum ultrices auctor. Nam interdum purus id cursus ultrices. Maecenas sed purus
+    fringilla, dignissim tellus vitae, porttitor sem.
+</p>
+</div>
+<h2>Hello World !!</h2>
+<!-- Akapit ze znakami specjalnymi, linią hotyzontalną, wyróżnionymi słowami -->
+<div>&trade;&lt;&gt;&copy;&reg;&alpha; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius sapien et
+    purus ornare molestie. Proin ornare quis magna sed finibus. Suspendisse sollicitudin iaculis augue, lobortis commodo
+    sapien pretium nec.<br>
+    <b>Sed</b> condimentum tincidunt orci, eu <i>elementum</i> justo pretium sit amet. Cras lacinia turpis metus, eu
+    euismod lectus maximus non.<br>
+<hr>
+<strong>Pellentesque</strong> sagittis aliquet tempor. <em>Ut</em> erat diam, lobortis ut facilisis non, faucibus luctus
+massa
+</div>
+<h3><b>Hello World !!!</b></h3>
+<!--użycie zaznaczenia, indeksów, listy uporządkowanej, nieoznaczonej, listy definicji -->
+<p>
+    Trzeba<mark>zwrócić na to uwagę.</mark>
+    Wzór sumaryczny gliceryny to C<sub>3</sub>H<sub>8</sub>O<sub>3</sub>, lub C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub>.<br>
+    Wzór na pole kwadratu to P=a<sup>2</sup>
+</p>
+<div>
+    LISTY<br><br>
+    <u>a) Lista uporządkowana elementów:</u>
+<ol>
+    <li>Element 1</li>
+    <li>Element 2</li>
+    <li>Element 3</li>
+</ol>
+<br>
+<i>b) Lista nieuporządkowana:</i>
+<ul>
+    <li>Element 1</li>
+    <li>Element 2</li>
+    <li>Element 3</li>
+</ul>
+<br>
+<b>c) Lista definicji:</b>
+<dl>
+    <dt>Pojęcie 1</dt>
+    <dd>Definicja Pojęcia 1
+    <dt>Pojęcie 2</dt>
+    <dd>Definicja pojęcia 2</dd>
+    <dt>Pojęcie 3</dt>
+    <dt>Pojęcie 4</dt>
+    <dd>Definicja pojęcia 3 i 4</dd>
+</dl>
+<mark>d) Zagnieżdżenie list:</mark>
+<ol>
+    <li>Element 1
+        <ul>
+            <li>Podpunkt a</li>
+            <li>Podpubkt b</li>
+        </ul>
+    </li>
+    <li>Element 2</li>
+    <li>Element 3
+        <ul>
+            <li>Podpunkt a</li>
+            <li>Podpunkt b</li>
+        </ul>
+    </li>
+    <li>Element 4</li>
+</ol>
+</div>
+<h4>Hello World !!!!</h4>
+<!--praca na linkach -->
+<p>LINKI</p><br>
+<a href="http://www.coderslab.pl" rel="nofollow" target="_blank">Kliknij aby przejść na stronę szkoły</a><br><br>
+<a href="#text">Przejdź do pierwszego akapitu</a>
+<p><!-- Tworzenie tabeli -->
+    TABELE<br><br>
+    a) Tabela z nagłówkami:
+<table>
+    <tr>
+        <th>Lp.</th>
+        <th scope="col">Imię i nazwisko</th>
+        <th scope="col">Miejsce urodzenia</th>
+    </tr>
+    <tr>
+        <th scope="row">Lp.1</th>
+        <td>Anna Kowalska</td>
+        <td>Kraków</td>
+    </tr>
+    <tr>
+    <th scope="row">Lp.2</th>
+    <td>Barbara Janik</td>
+    <td>Gdynia</td>
+    </tr>
+</table>
+<br><br>
+b) Tabela z łączeniem komórek:<br><br>
+<table border="1">
+    <tr>
+        <th>Zależności</th>
+        <th scope="col">Języki</th>
+        <th scope="col">Ludność</th>
+    </tr>
+    <tr>
+        <th scope="row">Niemcy</th>
+        <td rowspan="2">niemiecki</td>
+        <td>80,62</td>
+    </tr>
+    <tr>
+        <th scope="row">Austria</th>
+        <td>8,475</td>
+    </tr>
+</table>
+<br><br>
+<div class="form">
+<div><!--Tworzenie formularza -->FORMULARZ 1<br>
+<form>
+    <fieldset>
+        <legend>Twoje dane</legend>
+        <label>Imię
+            <input type="text" name="name" placeholder="Wpisz swoje imię">
+        </label>
+        <label>Email
+            <input type="email" name="email" placeholder="Wpisz swój email">
+        </label>
+        <input type="submit" value="Wyślij">
+    </fieldset>
+</form>
+</div><br><br>
+<div>FORMULARZ 2
+<form>
+    <label>Wyrażam zgodę
+        <input type="checkbox" name="agreement">
+    </label>
+    <label>Zamawiam produkt
+        <input type="checkbox" name="orderproduct" checked>
+    </label>
+</form>
+</div><br><br>
+<div>FORMULARZ 3<br>
+<form>
+    <fieldset>
+        <legend>Wybierz opcję dodatkową</legend>
+        <label>Pierwszeństwo wejścia na pokład<input type="checkbox" name="extras" value="priorityboarding">
+        </label><br>
+        <label>Ubezpieczenie bagażu podręcznego
+            <input type="checkbox" name="extras" value="luggageinsurane">
+        </label>
+    </fieldset>
+</form>
+</div><br><br>
+<div>FORMULARZ 4<br>
+<form>
+    <fieldset>
+        <legend>Wybierz preferowane miejsce</legend>
+        <label>Przy oknie
+            <input type="radio" name="seats" value="window seat">
+        </label>
+        <label>Przy korytarzy
+            <input type="radio" name="seats" value="aisle seat">
+        </label>
+    </fieldset>
+</form>
+</div>
+</div>
 </body>
 </html>

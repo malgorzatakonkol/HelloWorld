@@ -1,0 +1,21 @@
+body {
+    background-color: darkkhaki;
+    line-height: 140%;
+}
+
+.topDiv {
+    background-color: yellowgreen;
+    color: purple;
+}
+
+h2, div {
+    background-color: plum;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    background-image: url("images/tło.jpg");
+}
