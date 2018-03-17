@@ -1,0 +1,77 @@
+.first{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.second{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.third{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.fourth{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    clear: both; /*zjedź na dół, nie doklejaj się ani do lewej ani do prawej */
+}
+
+.fifth {
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.six {
+    background-color: gainsboro;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.seven {
+    background-color: olive;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.eight {
+    background-color: mediumorchid;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.nine {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    clear: both; /* zjeź na dół */
+    float: left; /* doklej coś do lewej */
+}
+
+.ten {
+    background-color: mediumaquamarine;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
+
+.eleven {
+    background-color: lightslategrey;
+    height: 100px;
+    width: 100px;
+    float: left; /* doklej się do lewej */
+}
